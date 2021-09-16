@@ -1,3 +1,5 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+
 body {
     margin: 0;
     padding: 0;
@@ -6,11 +8,123 @@ body {
 }
 
 .wrapper {
+    margin: 0 auto;
     display: block;
-    max-width: 90%;
+    max-width: 320px;
 }
 
 .card {
     margin: 0 auto;
+    display: block;
     width: 100%;
+    margin-top: 50%;
+    font-size: 18px;
+    font-family: Kumbh Sans, sans-serif;
+}
+
+.card-top {
+    margin: 0 auto;
+    height: 15em;
+    width: 100%;
+    height: 100%;
+}
+
+.card-top img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-profile-image {
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: white;
+    width: 96px;
+    height: 96px;
+    padding: 5px;
+    margin-top: -3.5em;
+}
+
+.card-profile-image img {
+    border-radius: 50px;
+}
+
+.card-mid {
+    background-color: white;
+    margin-top: -3.5em;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    text-align: center;
+    border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+.card-mid .name {
+    font-weight: 700;
+}
+
+.card-mid .age {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    padding-left: 5px;
+}
+
+.card-mid .city {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.card-bottom {
+    background-color: white;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+.card-bottom ul {
+    padding: 0;
+    
+}
+
+.card-bottom ul li {
+    list-style: none;
+    display: inline;
+}
+
+.card-bottom .number {
+    padding-left: 50px;
+}
+
+.card-bottom .numbers {
+    font-weight: 700;
+}
+
+.card-bottom .texts {
+    font-size: 12px;
+    color: hsl(0, 0%, 59%);
+}
+
+.card-bottom .text1 {
+    padding-right: 40px;
+}
+
+.card-bottom .text2 {
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.card-bottom .text3 {
+    padding-left: 45px;
+    padding-right: 0px;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
