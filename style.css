@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.wrapper {
+    display: block;
+    max-width: 90%;
+}
+
+.card {
+    margin: 0 auto;
+    width: 100%;
+}
