@@ -5,7 +5,30 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: hsl(185, 75%, 39%);
+    
 }
+
+.bg-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+.bg-1 {
+    position: absolute;
+    top: -60%;
+    right: 55%;
+}
+.bg-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 
 .wrapper {
     margin: 0 auto;
@@ -17,7 +40,7 @@ body {
     margin: 0 auto;
     display: block;
     width: 100%;
-    margin-top: 50%;
+    margin-top: 55%;
     font-size: 18px;
     font-family: Kumbh Sans, sans-serif;
 }
@@ -36,7 +59,7 @@ body {
 
 .card-profile-image {
     margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 55px;
     background-color: white;
     width: 96px;
     height: 96px;
@@ -120,11 +143,44 @@ body {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
-    position: absolute;
-    bottom: 0;
+    margin-top: 16em;
     padding-bottom: 10px;
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+
+@media only screen and (min-width: 720px) {
+    .wrapper {
+        max-width: 450px;
+    }
+
+    .card {
+        width: 100%;
+        margin-top:40%;
+    }
+
+    .card-top {
+        margin: 0 auto;
+        height: 8em;
+        width: 100%;
+    }
+
+    .card-top img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+
+    .card-bottom ul li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+
+    .attribution { 
+        margin-top: 14em;
+    }
 }
